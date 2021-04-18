@@ -1,10 +1,21 @@
 import './App.css';
+import {Profile} from './Profile';
+import image from './Profile/image.jpg';
+
+
+const imgStyle = {
+  width: '200px',
+  height: '200px',
+};
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+
+    <Profile>
+
+      <alert>MY FULL NAME BGD</alert>
+      <img src={image} alt={Image} style={imgStyle}/>
+    </Profile>
   );
 }
 
