@@ -1,22 +1,22 @@
-import './App.css';
-import {Profile} from './Profile';
-import image from './Profile/image.jpg';
+import {Profile} from './components/Profile';
+import image from './components/Profile/image.jpg';
 
 
-const imgStyle = {
-  width: '200px',
-  height: '200px',
-};
 
 function App() {
+
+  
   return (
+    
+    <Profile fullName= "Khaled Ahmed" bio="Cairo" profession="Frontend"  />
+      
+   
+     
 
-    <Profile>
-
-      <alert>MY FULL NAME BGD</alert>
-      <img src={image} alt={Image} style={imgStyle}/>
-    </Profile>
+      
   );
 }
+
+
 
 export default App;
